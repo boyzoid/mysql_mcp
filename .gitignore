@@ -1,0 +1,5 @@
+/.env
+/gl_mcp.iml
+/.idea/
+/test/
+/node_modules/

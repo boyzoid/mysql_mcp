@@ -1,0 +1,19 @@
+{
+  "name": "mcp-mysql-server",
+  "version": "0.0.1",
+  "description": "MCP server connecting to MySQL database for data analysis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Scott Stroz",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0",
+    "node-sql-parser": "^5.3.8",
+    "zod": "^3.24.2"
+  }
+}
